@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momontum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="intro">
+        <form class="greeting-form">
+            <h1>Hello, what's your name?</h1>
+            <input type="text">
+        </form>
+    </div>
+
+    <div class="content">
+        <div class="weather">
+            <p class="icon"></p>
+            <p class="temp"></p>
+            <p class="place"></p>
+        </div>
+
+        <h2 class="clock-title"></h2>
+
+        <h1 class="greeting-title"></h1>
+
+        <div class="todo-container">
+            <form class="todo-form">
+                <p>What should you do today?</p>
+                <input type="text" placeholder="Write here and press enter.">
+            </form>
+    
+            <div class="list-wrap">
+                <h3 class="todo-title">TODAY</h3>
+                <ul class="todo-list"></ul>
+        
+                <h3 class="finished-title">FINISHED</h3>
+                <ul class="finished-list"></ul>
+            </div>
+        </div>
+
+        <div class="quote-text">
+            <p class="quote"></p>
+            <p class="author"></p>
+        </div>
+    </div>
+    
+    <script src="js/bg.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/quotes.js"></script>
+</body>
+</html>
